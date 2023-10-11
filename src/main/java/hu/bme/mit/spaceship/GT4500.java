@@ -15,6 +15,7 @@ public class GT4500 implements SpaceShip {
     this.secondaryTorpedoStore = new TorpedoStore(10);
   }
 
+  // Uj kod
   public boolean fireLaser(FiringMode firingMode) {
     boolean firingSuccess = false;
     firingSuccess = secondaryTorpedoStore.fire(1);
